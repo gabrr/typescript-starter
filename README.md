@@ -59,4 +59,7 @@ new script in package.json
 
 `"start": "npm run build && node build/index.js"`
 
+#### Dev start
+`"dev": "ts-node-dev src/index.ts",`
+
 

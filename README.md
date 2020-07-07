@@ -17,7 +17,11 @@ After installing TypeScript, tsc compiler command is avaiable.
 `npm install @types/node --save-dev`
 
 #### TS Config file
-`npx tsc --init --rootDir src --outDir build \
+`npx tsc --init 
+
+or add 
+
+--rootDir src --outDir build \
 --esModuleInterop --resolveJsonModule --lib es6 \
 --module commonjs --allowJs true --noImplicitAny true`
 

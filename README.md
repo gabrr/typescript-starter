@@ -64,6 +64,6 @@ new script in package.json
 `"start": "yarn build && node build/index.js"`
 
 #### Dev start
-`"dev": "ts-node-dev --transpileOnly --ignore-watch node_modules src/server.ts",`
+`"dev": "ts-node-dev --transpile-only --ignore-watch node_modules src/server.ts",`
 
 

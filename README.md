@@ -5,16 +5,16 @@
 `mkdir typescript-starter
 cd typescript-starter`
 
-#### Setting NPM
-`npm init`
+#### Setting YARN
+`yarn init`
 
 #### Adding typescript as a dev dependency
-`npm install typescript --save-dev`
+`yarn add typescript -D`
 
 After installing TypeScript, tsc compiler command is avaiable.
 
 #### Installing 'node types', in order to get autocompletion.
-`npm install @types/node --save-dev`
+`yarn add @types/node -D`
 
 #### TS Config file
 `npx tsc --init 

@@ -50,10 +50,10 @@ In production we are not going to use TypeScript, but JavaScript. To compile the
 `npx tsc`
 
 #### Nodemon alternative for TS
-`npm install ts-node-dev -D`
+`yarn add ts-node-dev -D`
 
 #### Cleaning the build folder before building
-`npm install rimraf -D`
+`yarn add rimraf -D`
 
 new script in package.json
 
@@ -61,7 +61,7 @@ new script in package.json
 
 #### Production start
 
-`"start": "npm run build && node build/index.js"`
+`"start": "yarn build && node build/index.js"`
 
 #### Dev start
 `"dev": "ts-node-dev src/index.ts",`

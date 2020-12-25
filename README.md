@@ -17,11 +17,11 @@ After installing TypeScript, tsc compiler command is avaiable.
 `yarn add @types/node -D`
 
 #### TS Config file
-`npx tsc --init 
+`npx tsc --init`
 
-or add 
+or 
 
---rootDir src --outDir build \
+`npx tsc --init --rootDir src --outDir build \
 --esModuleInterop --resolveJsonModule --lib es6 \
 --module commonjs --allowJs true --noImplicitAny true`
 

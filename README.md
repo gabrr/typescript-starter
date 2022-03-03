@@ -65,7 +65,7 @@ module.exports = {
 };
 ```
 
-**New scripts in package.json:**
+**New scripts in package.json inside `scripts`:**
 
 ```
 "build": "rimraf ./build && tsc",
